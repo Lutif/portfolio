@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css'
 
 export default function Nav(props)
 {
@@ -10,25 +11,25 @@ export default function Nav(props)
         {
             label: 'Skills',
             id: 'skills'
-        },{
+        },
+        {
             label: 'Contact',
             id: 'contact'
         }
     ]
     return (
-        <div className="Navbar">
+        <div className="navbar">
             <div className="logo">
+                Lutif Ali
             </div>
-            <div className="menu">
-                <ul>
+                <ul className="nav">
                     {navitems.map(item =>
-                        <li className='navitem'>
+                        <li key={item.id} className='navitem'>
                             <a className='navlink' href={`#${item.id}`} > {item.label} 
                             </a>
                         </li>
                     )}
                 </ul>
-            </div>
         </div>
     )
 }
