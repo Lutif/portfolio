@@ -1,7 +1,9 @@
-###Objectiv
+Objective
+=========
 This project is created to showcase my projects (and hopefully git me hired for my first dev job!) and let people contact me easily.
 
-##stack
+stack
+-----
 This is static single page web(app) , developed in Reactjs.
 
 ##deployment
