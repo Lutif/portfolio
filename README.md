@@ -4,13 +4,14 @@ This project is created to showcase my projects (and hopefully git me hired for 
 
 Stack
 -----
-This is static single page web(app) , developed in Reactjs.
+This is static single page web(app) , developed in Reactjs, along with CSS and html.
 
 Deployment
 ----------
 deploying it here on github , infuture may be get a custom domain 
 
-Developed by
+
+Developed by:
 ---------
 Lutif Ali
 -----
