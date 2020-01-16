@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Arrow from "./Arrow";
 import Project from "./Project";
-import './Projects.css';
 import data from './data.js';
 
 
@@ -24,12 +23,12 @@ export default function Projects(props) {
       if (autoSlide) {
         setCurrent((current + 1) % data.length);
       }
-    }, 2000);
+    }, 4000);
     return () => clearTimeout(id);
   }, [current]);
 
   return (
-    <div className='contianer' id='projects'>
+    <div className='contianer light' id='projects'>
     <div className='carousel'>
       <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
       <div className='projectContainer'><Project  content={data[current]} />

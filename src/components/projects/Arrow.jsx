@@ -1,9 +1,8 @@
 import React from "react";
-import './Projects.css'
 
 export default function Arrow(prop) {
   return (
-    <div className={"arrow "+prop.direction} onClick={prop.clickFunction}>
+    <div className={"arrow "+prop.direction} cursor='pointer' onClick={prop.clickFunction}>
       {prop.arrow}
     </div>
   );
