@@ -7,7 +7,7 @@ export default function Contact() {
                 <a href='https://www.facebook.com/lutif' target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href='https://github.com/Lutif' target="_blank"><i class="fab fa-github"></i></a>
                 <a href='https://www.linkedin.com/in/lutifmandhro/' target="_blank"><i class="fab fa-linkedin"></i></a>
-                
+                <a href="mailto:lutif.mandhro@gmail.com"><i class="fas fa-envelope-square"></i></a>
             </div>
         </div>
     )
