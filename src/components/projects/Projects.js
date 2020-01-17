@@ -31,8 +31,8 @@ export default function Projects(props) {
     <div className='contianer light' id='projects'>
     <div className='carousel'>
       <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
-      <div className='projectContainer'><Project  content={data[current]} />
-      </div>
+      <Project  content={data[current]} />
+  
       <Arrow direction="right" arrow="&#9654;" clickFunction={goNext} />
       </div>
       </div>

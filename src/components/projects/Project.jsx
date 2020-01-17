@@ -3,7 +3,6 @@ import React from 'react';
 export default function Project(props)
 {
 
-const image=require(`${props.content.image}`)
     return <div className='projectContainer'  >
         <div className='projectImage'>
             <img className='projectImage' src={require(`${props.content.image}`)} alt ='' />
