@@ -39,6 +39,7 @@ body,body *{
     padding: 1rem 4rem;
     /* align-items: center; */
     color: var(--dark-grey);
+    z-index: 4;
 }
 .nav{
     display: flex;
@@ -162,9 +163,7 @@ padding:10px;
       height: 100%;
       width:100%;
   }
-.skills{
 
-}
 /* CONTACT AREA */
 .contact{
 
@@ -182,7 +181,12 @@ padding: 20px 0;
 
 /* MOBILE Support */
 @media only screen and (max-width: 480px) {
-    
+ .nav{
+     display: none;
+ }
+    .body,.contact{
+     font-size: 3rem;
+ }   
     .skillslogo{
         height: 5rem;
         width:5rem;
