@@ -36,8 +36,8 @@ body,body *{
     position: fixed;
     width: 100vw;
     justify-content: space-between;
-    padding: 20px 40px;
-    align-items: center;
+    padding: 1rem 4rem;
+    /* align-items: center; */
     color: var(--dark-grey);
 }
 .nav{
@@ -45,7 +45,7 @@ body,body *{
 }
 .navitem{
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 1rem;
 }
 .navitem >a {
     text-decoration: none;
@@ -54,7 +54,7 @@ body,body *{
 
 /* MAIN SECTION STYLES  */
 .contianer{
-    height: 100vmin;
+    height: 40rem;
     color: var(--white);
     padding: 10% 5%;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ body,body *{
 }
 .main-image{
     margin-top: 20px;
-    height: 300px;
+    height: 25rem;
     width: auto;
 }
 
@@ -78,14 +78,14 @@ body,body *{
     position: relative;
     display: flex;
     flex-direction: column;
-
-    height: 80vh;
-    width: 60vw;
+border: 2px solid rgb(110, 86, 133);
+    height: 60%;
+    width: 80%;
   }
   .projectImage {
       width: 100%;
     max-width: 900px;
-    height: 70vh;
+    height: 100%;
   }
   .projectDetails{
     position: absolute;
@@ -137,3 +137,63 @@ cursor: pointer;
   .arrow.right{
     right: 40px;
   }
+
+
+/* SKILLS section */
+
+.skills{
+    height: 70vh;
+    font-size: 2rem;
+}
+.skillsList {
+      display: flex;
+      flex-wrap: wrap;
+      color: black;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(255,255,255,0.2);
+
+}
+  .skillslogo {
+justify-content:center;
+padding:10px;
+      height: 200px;
+      width: 150px;
+      background-color: rgba(255,255,255, 0.2);
+  }
+  .skillslogo > img{
+      min-height: 190px;
+      min-width: 140px;
+      height: 100%;
+      width:100%;
+  }
+
+/* CONTACT AREA */
+.contact{
+
+    font-size: 2rem;
+    text-align: center;
+    justify-content:center;
+padding: 20px 0;
+}
+.social a{
+    margin:10px;
+}
+
+
+
+
+/* MOBILE Support */
+@media only screen and (max-width: 480px) {
+    .contianer{
+        background-color: green;
+    }
+    .main-image{
+        height: 40vh;
+        width: 80vw;
+    }
+    .projectContainer{
+        height: 50vh;
+    }
+}
