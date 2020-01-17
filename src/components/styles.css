@@ -40,6 +40,7 @@ body,body *{
     /* align-items: center; */
     color: var(--dark-grey);
     z-index: 4;
+    box-shadow:0 2px 5px var(--dark);
 }
 .nav{
     display: flex;
@@ -55,10 +56,11 @@ body,body *{
 
 /* MAIN SECTION STYLES  */
 .contianer{
-    height: 40rem;
+    height: 45rem;
     width: 100%;
     color: var(--white);
     padding: 5% 5%;
+    /* border: 2px solid violet; */
     box-sizing: border-box;
     align-items: center;
     text-align: center;
@@ -189,7 +191,7 @@ padding: 20px 0;
      display: none;
  }
     .body,.contact{
-     font-size: 3rem;
+     font-size: 2rem;
  }   
     .skillslogo{
         height: 5rem;

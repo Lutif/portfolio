@@ -12,7 +12,7 @@ let Data = [
     },
     {   index:1,
         name: 'Shorty',
-        intro: 'A Url shorting website , which only only shorten your url but track it dynamicaly.',
+        intro: 'A Url shorting website , which not only shorten your url but track it dynamicaly.',
         url:"https://lutif.github.io/shorty/",
         tech: 'HTML, CSS ,JAVASCRIPT, API, AJAX',
         problems: " One problem arises was to make API calls to rel.ink API, first solution come to mind was to build a back end use HTTP module to make API calls, However backend couldn't modify dom so had to pass that data to front end or use some templeting engine; second though was to find a way to make API calls from front-end; there AJAX came to resue.",
@@ -31,13 +31,24 @@ let Data = [
     {
         index: 3,
         name: 'ChatApp',
-        intro: 'React based Chat room app where anyone can sign in with name and chat room name to chat with everyone in that room.',
-        tech: 'HTML, CSS , JAVASCRIPT,React,Nodejs,Socket.io ',
+        intro: 'React based Chat room app where anyone can sign in with name and chat room name to chat with everyone in that room.Frontend implement in Reactjs , backend in ExpressJS',
+        tech: 'HTML, CSS , JAVASCRIPT,React,Nodejs,ExpressJS,Socket.io,heroku,githubPages ',
         problems: " ",
             image: './project-images/chatapp.png',
         url: 'https://lutif.github.io/chatApp/',
         discription:'This is a chat app frontend is implemented in React while backend in Nodejs .'
+    },
+    {
+        index: 4,
+        name: 'EasyTodo',
+        intro: 'EJS templating based todo app that uses express server on backend , and monogoose database to store notes.Hosted on heroku',
+        tech: 'HTML, CSS , JavaScript,EJS,Nodejs,ExpressJS,Mongodb,heroku',
+        problems: " ",
+            image: './project-images/easytodo.png',
+        url: 'https://sheltered-sea-77774.herokuapp.com/home',
+        discription:'This is a chat app frontend is implemented in React while backend in Nodejs .'
     }
+
 
 
 ]

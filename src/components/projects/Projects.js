@@ -23,7 +23,7 @@ export default function Projects(props) {
       if (autoSlide) {
         setCurrent((current + 1) % data.length);
       }
-    }, 4000);
+    }, 5000);
     return () => clearTimeout(id);
   }, [current]);
 

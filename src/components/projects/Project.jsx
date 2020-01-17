@@ -8,7 +8,7 @@ export default function Project(props)
             <img className='projectImage' src={require(`${props.content.image}`)} alt ='' />
         </div>
         <div className='light projectDescription'>
-            <h2>{props.content.name}</h2>
+        <a href={props.content.url} target='_blank'> <h2>  {props.content.name}</h2></a>
             <p>{props.content.intro}</p>
             <p>{`Technologies: ${props.content.tech}`}</p>
             <div className="projectDetails">
