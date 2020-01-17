@@ -54,7 +54,7 @@ body,body *{
 
 /* MAIN SECTION STYLES  */
 .contianer{
-    min-height: 40rem;
+    height: 40rem;
     width: 100%;
     color: var(--white);
     padding: 5% 5%;
@@ -183,12 +183,13 @@ padding: 20px 0;
 /* MOBILE Support */
 @media only screen and (max-width: 480px) {
     
-    .contianer{
-        background-color: green;
-    }
     .skillslogo{
         height: 5rem;
         width:5rem;
+    }
+    .contianer{
+        /* border:2px solid black; */
+        height: 400px;
     }
     
 }
