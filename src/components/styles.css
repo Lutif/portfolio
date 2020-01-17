@@ -63,6 +63,10 @@ body,body *{
     align-items: center;
     text-align: center;
 }
+.text{
+    
+    margin-top: 40px;
+}
 .main-image{
     margin-top: 20px;
     width: 100%;

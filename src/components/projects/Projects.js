@@ -29,6 +29,7 @@ export default function Projects(props) {
 
   return (
     <div className='contianer light' id='projects'>
+      <h3>Projects</h3>
     <div className='carousel'>
       <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
       <Project  content={data[current]} />
