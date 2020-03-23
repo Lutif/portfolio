@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Arrow from "./Arrow";
 import Project from "./Project";
-import data from './data.js';
-
+import data from "./data.js";
+import Toggle from "./Toggle.js";
 
 export default function Projects(props) {
   let [current, setCurrent] = useState(0);
@@ -28,14 +28,15 @@ export default function Projects(props) {
   }, [current]);
 
   return (
-    <div className='contianer light' id='projects'>
+    <div className="contianer light" id="projects">
       <h3>Projects</h3>
-    <div className='carousel'>
-      <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
-      <Project  content={data[current]} />
-  
-      <Arrow direction="right" arrow="&#9654;" clickFunction={goNext} />
+      {/* <Toggle/> */}
+      <div className="carousel">
+        <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
+        <Project content={data[current]} />
+
+        <Arrow direction="right" arrow="&#9654;" clickFunction={goNext} />
       </div>
-      </div>
+    </div>
   );
 }
