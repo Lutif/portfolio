@@ -16,7 +16,7 @@ function ProjectTable() {
               className="col-11 round img"
             />
           </td>
-          <td className="col-md-3 card">
+          <td className="col-md-3 light card">
             <h3 className="text-center">{project.name}</h3>
             <div className="row m-auto mt-5">
               <button className="mr-2 btn btn-primary ">
@@ -33,7 +33,7 @@ function ProjectTable() {
               <button className=" btn btn-primary">Github</button>
             </div>
           </td>
-          <td className="col-md-4 card">
+          <td className="col-md-4 card light">
             <p>{project.discription}</p>
             <hr />
             <p>

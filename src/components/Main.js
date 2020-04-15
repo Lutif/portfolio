@@ -6,7 +6,7 @@ export default function Main(props) {
         <div className='dark contianer' >
             <div className='text'>
                 <h1>Hi, I am <span>Lutif Ali</span> </h1>
-                <p>a WebApp developer.</p>
+                <p>I love creating web and mobile apps</p>
             </div>
             <img className='main-image' src={image} alt=''/>
         </div>
