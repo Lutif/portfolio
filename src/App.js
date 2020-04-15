@@ -6,13 +6,13 @@ import Projects from './components/projects/Projects.js'
 import Skills from './components/Skills.js'
 import Contact from './components/Contact.js'
 import SocialBar from './components/SocialBar'
+import ProjectTable from './components/projects/ProjectTable'
 
 function App() {
   return (<div>
     <SocialBar/>
-    <Nav />
     <Main />
-    <Projects />
+    <ProjectTable />
     <Skills />
     <Contact/>
   </div>

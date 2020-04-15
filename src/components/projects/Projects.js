@@ -32,10 +32,10 @@ export default function Projects(props) {
       <h3>Projects</h3>
       {/* <Toggle/> */}
       <div className="carousel">
-        <Arrow direction="left" arrow="&#9664;" clickFunction={goBack} />
+        <Arrow className="arrow left" arrow="&#9664;" clickFunction={goBack} />
         <Project content={data[current]} />
 
-        <Arrow direction="right" arrow="&#9654;" clickFunction={goNext} />
+        <Arrow className="arrow right" arrow="&#9654;" clickFunction={goNext} />
       </div>
     </div>
   );

@@ -6,8 +6,10 @@ function SocialBar() {
     <div
       onMouseEnter={() => setIsActive(true)}
       onMouseLeave={() => setIsActive(false)}
-      className="social-bar position-fixed h3 p-2 bg-light rounded shadow-lg"
+      className="social-bar position-fixed h3 p-2 bg-light rounded shadow-lg z-10"
+        style={{zIndex:3000}}
     >
+
       <div>
         {"   "}
         <i class="fas fa-user-friends"></i>
