@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0d5293602fc2c90c5101d3aa126a849",
+    "revision": "8de6bf97e7736c7320966e8baa964fa0",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "07995a64132ec4f96876",
+    "revision": "964b36181adc7c4c690b",
     "url": "/portfolio/static/css/main.911f90f9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c9399aec.chunk.js.LICENSE"
   },
   {
-    "revision": "07995a64132ec4f96876",
-    "url": "/portfolio/static/js/main.2d002875.chunk.js"
+    "revision": "964b36181adc7c4c690b",
+    "url": "/portfolio/static/js/main.8ade6fda.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/app-landing.a3cbae92.png"
   },
   {
+    "revision": "762523222104eb1e76b4233f3dcb44a1",
+    "url": "/portfolio/static/media/betachat.76252322.PNG"
+  },
+  {
     "revision": "145cdb94e5c1be3b6e88f621893d4d6b",
     "url": "/portfolio/static/media/chatapp.145cdb94.png"
+  },
+  {
+    "revision": "a60095f7891d37acb36cef8ee739c7d9",
+    "url": "/portfolio/static/media/covid.a60095f7.PNG"
   },
   {
     "revision": "6971ddc761cc35ba918be0a69dfbcf50",
