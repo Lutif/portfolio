@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.911f90f9.chunk.css",
-    "main.js": "/portfolio/static/js/main.8ade6fda.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8ade6fda.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b06dc487.chunk.css",
+    "main.js": "/portfolio/static/js/main.70696973.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.70696973.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/js/2.c9399aec.chunk.js": "/portfolio/static/js/2.c9399aec.chunk.js",
     "static/js/2.c9399aec.chunk.js.map": "/portfolio/static/js/2.c9399aec.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7e8b8bfeec1be0721dac39bd4478ca97.js": "/portfolio/precache-manifest.7e8b8bfeec1be0721dac39bd4478ca97.js",
+    "precache-manifest.ab4e49ce2b1d72dcdf4ab94220c29ad8.js": "/portfolio/precache-manifest.ab4e49ce2b1d72dcdf4ab94220c29ad8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.911f90f9.chunk.css.map": "/portfolio/static/css/main.911f90f9.chunk.css.map",
+    "static/css/main.b06dc487.chunk.css.map": "/portfolio/static/css/main.b06dc487.chunk.css.map",
     "static/js/2.c9399aec.chunk.js.LICENSE": "/portfolio/static/js/2.c9399aec.chunk.js.LICENSE",
     "static/media/app-landing.png": "/portfolio/static/media/app-landing.a3cbae92.png",
     "static/media/betachat.PNG": "/portfolio/static/media/betachat.76252322.PNG",
@@ -24,7 +24,7 @@
     "static/media/html5.svg": "/portfolio/static/media/html5.f0361c5e.svg",
     "static/media/javascript.svg": "/portfolio/static/media/javascript.b84019d9.svg",
     "static/media/keeper.PNG": "/portfolio/static/media/keeper.5259205a.PNG",
-    "static/media/main.svg": "/portfolio/static/media/main.61a4c685.svg",
+    "static/media/main.svg": "/portfolio/static/media/main.46d9f22b.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.c3fedb55.svg",
     "static/media/nodejs.svg": "/portfolio/static/media/nodejs.c309a724.svg",
     "static/media/react.svg": "/portfolio/static/media/react.5d1a1a0f.svg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/js/2.c9399aec.chunk.js",
-    "static/css/main.911f90f9.chunk.css",
-    "static/js/main.8ade6fda.chunk.js"
+    "static/css/main.b06dc487.chunk.css",
+    "static/js/main.70696973.chunk.js"
   ]
 }
