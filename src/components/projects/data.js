@@ -2,6 +2,19 @@
 
 let Data = [
   {
+    index: 5,
+    name: "Fakebook",
+    intro:
+      "A MERN Social media network , with posts, likes and comments features",
+    url: "https://fakebook00.herokuapp.com/",
+    tech: "React,Mongo, Node, Expressjs, Axios",
+    problems: " ",
+    image: "./project-images/fakebook.gif",
+    discription:
+      "This app allow user to create Register, Signin , create profile, posts their thoughs , comment on it or like it."
+  }
+
+  ,{
     index: 0,
     name: "Keeper",
     intro:
@@ -13,6 +26,33 @@ let Data = [
     discription:
       "This app helps you note only take notes but also work as todo with recoreder app help you determine how much time it took you do certain work"
   },
+  {
+    index: 11,
+    name: "Covid19",
+    intro:
+      "Corna Virus update center for Pakistan to get real time interactive upto date data about covid19",
+    tech:
+      "HTML, CSS , JAVASCRIPT,React,githubPages ",
+    problems: " ",
+    image: "./project-images/covid.PNG",
+    url: "https://lutif.github.io/Covid19/",
+    discription:
+      "Corna Virus update center for Pakistan to get real time interactive upto date data about covid19"
+  },
+  {
+    index: 111,
+    name: "Safe Chat",
+    intro:
+      "One to One Chat app in MERN Stack",
+    tech:
+      "HTML, CSS , JAVASCRIPT,React,Mongo, Node, Expressjs, Axios  ",
+    problems: " ",
+    image: "./project-images/betachat.PNG",
+    url: "https://betatech-chat.herokuapp.com/",
+    discription:
+      "One to One Chat app,Chat with ease with this free and safe chat app"
+  },
+  
   {
     index: 1,
     name: "Shorty",
@@ -39,19 +79,6 @@ let Data = [
       "This is beautiful interactive landing page of an imaginery bookmark app, website is responsive to all screen sizes ."
   },
   {
-    index: 3,
-    name: "ChatApp",
-    intro:
-      "React based Chat room app where anyone can sign in with name and chat room name to chat with everyone in that room.Frontend implement in Reactjs , backend in ExpressJS",
-    tech:
-      "HTML, CSS , JAVASCRIPT,React,Nodejs,ExpressJS,Socket.io,heroku,githubPages ",
-    problems: " ",
-    image: "./project-images/chatapp.png",
-    url: "https://lutif.github.io/chatApp/",
-    discription:
-      "This is a chat app frontend is implemented in React while backend in Nodejs ."
-  },
-  {
     index: 4,
     name: "EasyTodo",
     intro:
@@ -62,18 +89,19 @@ let Data = [
     url: "https://sheltered-sea-77774.herokuapp.com/home",
     discription:
       "This is a chat app frontend is implemented in React while backend in Nodejs ."
-  },
-  {
-    index: 5,
-    name: "Fakebook",
+  },{
+    index: 3,
+    name: "ChatApp",
     intro:
-      "A MERN Social media network , with posts, likes and comments features",
-    url: "https://fakebook00.herokuapp.com/",
-    tech: "React,Mongo, Node, Expressjs, Axios",
+      "React based Chat room app where anyone can sign in with name and chat room name to chat with everyone in that room.Frontend implement in Reactjs , backend in ExpressJS",
+    tech:
+      "HTML, CSS , JAVASCRIPT,React,Nodejs,ExpressJS,Socket.io,heroku,githubPages ",
     problems: " ",
-    image: "./project-images/fakebook.gif",
+    image: "./project-images/chatapp.png",
+    url: "https://lutif.github.io/chatApp/",
     discription:
-      "This app allow user to create Register, Signin , create profile, posts their thoughs , comment on it or like it."
-  }
+      "This is a chat room based chat app frontend is implemented in React while backend in Nodejs ."
+  },
+
 ];
 export default Data;

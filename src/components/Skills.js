@@ -13,12 +13,12 @@ export default function Skills() {
   const stack = [html, css, js, react, redux, node, mongo, git, heroku];
 
   return (
-    <div className="mx-4 rounded">
+    <div className="mx-4 rounded ">
       <h2 className="mx-auto px-auto col-md-4 display-4">My Toolkit</h2>
 
-      <div className="row">
+      <div className="row mx-auto">
         {stack.map((logo) => (
-          <div className="skillslogo">
+          <div className="skillslogo round">
             <img src={logo} alt=""></img>
           </div>
         ))}
