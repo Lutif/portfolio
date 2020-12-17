@@ -1,6 +1,6 @@
 Objective
 =========
-This project is created to showcase my projects (and hopefully git me hired for my first dev job!) and let people contact me easily.
+This project is created to showcase my projects (and hopefully get me hired for my first dev job!) and let people contact me easily.
 
 Stack
 -----
